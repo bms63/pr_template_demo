@@ -1,23 +1,23 @@
 
-# Hello Admiral!
+Thank you for your Pull Request!  We have developed this task checklist from the [Development Process Guide](https://roche-gsk.github.io/admiral/articles/development_process.html) to help with the final steps of the process.  Completing the below tasks helps to ensure our reviewers can maximize their time on your code as well as making sure the admiral codebase remains robust and consistent.   
 
-A PR reviewer should be focused on your code.  We have developed a simple checklist for low-level tasks that the developer should finsih before the a Pull Request is somethign something seomthing
+Please check off each taskbox as an acknowledgment that you completed the task or check off that it is not relevant to your Pull Request.  This checklist is part of the Github Action workflows and the Pull Request will not be merged into the devel branch until you have checked off each task.
 
-- [ ] Update news.md
+- [ ] Code is formatted according to the [tidyverse style guide](https://style.tidyverse.org/) 
+- [ ] Updated relevant unit tests or have written new unit tests - See [Unit Test Guide](https://roche-gsk.github.io/admiral/articles/unit_test_guidance.html)
+- [ ] If you removed/replaced any function and/or function parameters, did you fully follow the [deprecation guidance](https://roche-gsk.github.io/admiral/articles/programming_strategy.html#deprecation-1)?
+- [ ] Update to all relevant roxygen headers and examples 
+- [ ] Run `devtools::documents() ` so all `.Rd, NAMESPACE and DESCRIPTION` files are updated appropriately
+- [ ] Address any updates needed for vignettes and/or templates
+- [ ] Update `NEWS.md`
+- [ ] Build admiral site `pkgdown::build_site()` and check that all affected examples are displayed correctly and that all new functions occur on the "[Reference](https://roche-gsk.github.io/admiral/reference/index.html)" page. 
 - [ ] Address or fix all lintr warnings and errors - `lintr::lint_package()`
-- [ ] Update unit tests or write new unit tests - See [Unit Test Guide](https://roche-gsk.github.io/admiral/articles/unit_test_guidance.html)
 - [ ] Run Check Package locally and address all errors and warnings - ` devtools::check()`
-- [ ] Update all relevant roxygen headers and examples 
-- [ ] Run `devtools::documents() ` so all .Rd files are updated appropriately
-- [ ] Address all merge conflicts and resolve
-- [ ] Address any updates needed for vignettes or templates
+- [ ] Link the issue so that it closes after successful merging. 
+- [ ] Address all merge conflicts and resolve appropriately 
+- [ ] I will delete branch and close issue(s), if not linked, once merging is successful
+- [ ] Pat yourself on the back for a job well done!  Much love to your accomplishment!
 
-
-If this is your first Pull Request we really stess you to look
-
-* this
-* that
-* here
 
 
 
