@@ -1,6 +1,6 @@
-name:  Update for Documentation
+name:  Updates for Documentation
 description: Update for Documentation
-title: "[Documentation]: "
+title: "Documentation Update of Enhancement: "
 labels: ["vignettes", "website", "documentation"]
 assignees:
   - octocat
@@ -8,7 +8,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        The admiral team loves documentation!  Sometimes it gets out of sync or is not very helpful.  
+        Please help us keep the documenation up to date or make suggestions to enhance it.
   - type: input
     id: contact
     attributes:
@@ -18,45 +19,20 @@ body:
     validations:
       required: false
   - type: textarea
-    id: what-happened
+    id: docs-out-if-sync
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
+      label: Please fill out if documentation is out of sync?
+      description: Screen shots are super helpful here!
       placeholder: Tell us what you see!
-      value: "A bug happened!"
+      value: "Something is out of sync or poorly written"
     validations:
-      required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+      required: false
   - type: textarea
-    id: logs
+    id: docs-enhancement
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      label: Please fill out if documentation is in need of enhancements?
+      description: Be as desciprtive as you can!
+      placeholder: The more detail the more likely we can act on it.
+      value: "I have an idea!"
+    validations:
+      required: false
