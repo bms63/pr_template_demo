@@ -20,17 +20,7 @@ body:
         - label: I agree to follow this project's Code of Conduct
         - label: I agree to follow this project's Code of Conduct
           required: true
-  - type: checkboxes
-    id: non-core
-    attributes:
-      label: Onboarding tasks for non-Core Team Members
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-        - label: I agree to follow this project's Code of Conduct
-        - label: I agree to follow this project's Code of Conduct
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+
 
 
 
