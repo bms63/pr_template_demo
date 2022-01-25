@@ -1,6 +1,6 @@
 name: Onboarding Tasks
 description: Brining a Core or non-Core member onto the admiral team
-title: "[Onboaring: "
+title: "Onboaring: "
 labels: ["onboarding"]
 assignees:
   - octocat
@@ -8,14 +8,28 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Welcome to the Team!  We love contributors!
   - type: checkboxes
-    id: terms
+    id: core
     attributes:
-      label: Code of Conduct
+      label: Onboarding tasks for Core Team Members
       description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
       options:
         - label: I agree to follow this project's Code of Conduct
+         - label: I agree to follow this project's Code of Conduct
+          - label: I agree to follow this project's Code of Conduct
+           - label: I agree to follow this project's Code of Conduct
+          required: true
+  - type: checkboxes
+    id: non-core
+    attributes:
+      label: Onboarding tasks for non-Core Team Members
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+         - label: I agree to follow this project's Code of Conduct
+          - label: I agree to follow this project's Code of Conduct
+           - label: I agree to follow this project's Code of Conduct
           required: true
 
 
