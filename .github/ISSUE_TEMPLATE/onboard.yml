@@ -15,8 +15,19 @@ body:
       label: Onboarding tasks for Core Team Members
       description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
       options:
+        - label: Given a tour of Github
+        - label: Understand how to do a Pull Request
+        - label: Understand the Programming Strategy
+        - label: Invited to all relevant meeting. What are those?
+          required: true
+  - type: checkboxes
+    id: non-core
+    attributes:
+      label: Onboarding tasks for non-Core Team Members
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
         - label: I agree to follow this project's Code of Conduct
-        - label:  e to follow this project's Code of Conduct
+        - label: e to follow this project's Code of Conduct
         - label:  to follow this project's Code of Conduct
         - label: I   to follow this project's Code of Conduct
           required: true
