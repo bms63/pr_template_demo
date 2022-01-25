@@ -4,10 +4,23 @@ title: "Onboarind: "
 labels: ["onboarding"]
 assignees:
   - octocat
-  - type: checkboxes
-    id: terms
+body:
+  - type: markdown
     attributes:
-      label: Code of Conduct
+      value: |
+        Welcome to the Team! We are excited to get you contributing to Admiral
+  - type: checkboxes
+    id: core
+    attributes:
+      label: Core admiral Team
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+    - type: checkboxes
+    id: non-core
+    attributes:
+      label: non-Core admiral Team
       description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
       options:
         - label: I agree to follow this project's Code of Conduct
