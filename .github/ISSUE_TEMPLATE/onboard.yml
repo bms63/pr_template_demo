@@ -1,27 +1,29 @@
-name:  Onboarding Tasks
-description: Onboarding Tasks
-title: "Onboarind: "
-labels: ["onboarding"]
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug", "triage"]
 assignees:
   - octocat
 body:
   - type: markdown
     attributes:
       value: |
-        Welcome to the Team! We are excited to get you contributing to Admiral
+        Thanks for taking the time to fill out this bug report!
   - type: checkboxes
-    id: core
+    id: terms
     attributes:
-      label: Core admiral Team
+      label: Code of Conduct
       description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
-    - type: checkboxes
-    id: non-core
-    attributes:
-      label: non-Core admiral Team
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+
+
+
+
+
+
+
+
+
+
