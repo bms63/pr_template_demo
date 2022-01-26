@@ -1,4 +1,4 @@
-name:  Updates for Documentation
+name:  Updates or Enhancements for Documentation
 description: Update for Documentation
 title: "Documentation Update or Enhancement: "
 labels: ["vignettes", "website", "documentation"]
@@ -21,10 +21,10 @@ body:
   - type: textarea
     id: docs-out-if-sync
     attributes:
-      label: Please fill out if documentation is out of sync?
+      label: Please fill out if documentation is out of sync or is in need of a refresh?
       description: Screen shots are super helpful here!
       placeholder: Tell us what you see!
-      value: "Something is out of sync or poorly written"
+      value: "Something is out of sync or needs a refresh"
     validations:
       required: false
   - type: textarea
@@ -33,6 +33,6 @@ body:
       label: Please fill out if documentation is in need of enhancements?
       description: Be as desciprtive as you can!
       placeholder: The more detail the more likely we can act on it.
-      value: "I have an idea!"
+      value: "I have an idea for some enhancements!"
     validations:
       required: false

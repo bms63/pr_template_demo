@@ -1,5 +1,5 @@
 name: Bug Report
-description: File a bug report
+description: Something is not working correctly or is not working at all!
 title: "Bug: "
 labels: ["bug", "programming"]
 assignees:
@@ -27,11 +27,12 @@ body:
     validations:
       required: true
   - type: input
-    id: version
+    id: session info
     attributes:
-      label: R Version
-      description: Use `R.version` in your console to find the version of R you are using 
-      placeholder: 4.1.2
+      label: Session sessionInfo
+      description: Use `sessionInfo()` to gather all the details of your environment when the bug happened.
+      placeholder: Please cut and paste your session info into here.
+      value: "Please give us as many details as you can!"
     validations:
       required: false
   - type: textarea
