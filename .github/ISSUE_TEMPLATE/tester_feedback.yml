@@ -41,8 +41,8 @@ body:
     attributes:
       label: Let's get specific on your category on New Feature or General
       description: Which function, documentation or s
-      placeholder: Tell us what you see!
-      value: "Something"
+      placeholder: Tell us what you see b!
+      value: "Something a"
     validations:
       required: false
   
