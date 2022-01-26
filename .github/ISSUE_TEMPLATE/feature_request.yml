@@ -36,7 +36,7 @@ body:
     validations:
       required: false
   - type: textarea
-    id: output
+    id: code
     attributes:
       label: Reproducible Example/Pseudo Code
       description: Can you provide a working example or a sketch of how the code should work?
