@@ -19,7 +19,6 @@ body:
         - label: Understand how to do a Pull Request
         - label: Understand the Programming Strategy
         - label: Invited to all relevant meeting. What are those?
-          required: true
   - type: checkboxes
     id: non-core
     attributes:
@@ -30,7 +29,6 @@ body:
         - label: e to follow this project's Code of Conduct
         - label:  to follow this project's Code of Conduct
         - label: I   to follow this project's Code of Conduct
-          required: true
 
 
 

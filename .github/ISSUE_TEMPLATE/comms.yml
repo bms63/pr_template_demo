@@ -1,0 +1,28 @@
+name: Communications
+description: Are you doing something communication-related around admiral?
+title: "Communications:  <Insert Issue Title Here>"
+labels: ["communication"]
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We love that you are representing admiral.  Let us help!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details unless you are Core team
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Can you give more detail on your question?
+      description: Information
+      placeholder: Tell us what you see!
+      value: "Information"
+    validations:
+      required: true

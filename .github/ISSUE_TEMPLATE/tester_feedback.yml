@@ -1,7 +1,7 @@
 name: Tester Feedback
 description: Are you testing admiral! You are amazing!
 title: "Tester Feedback"
-labels: ["tester feeback"]
+labels: ["tester feedback"]
 assignees:
   - octocat
 body:
