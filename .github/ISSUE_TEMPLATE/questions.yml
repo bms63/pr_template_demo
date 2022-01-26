@@ -1,6 +1,6 @@
 name: Question
 description: Do you have question about admrial?
-title: "Question:"
+title: "Question:  <Insert Issue Title Here>"
 labels: ["questions"]
 assignees:
   - octocat
@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        We love questions!  Please don't feel shy to ask away.  Questions help to generate great discussion, which is why we have admiral!
   - type: input
     id: contact
     attributes:
@@ -20,10 +20,10 @@ body:
   - type: textarea
     id: what-happened
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
+      label: Can you give more detail on your question?
+      description: |
       placeholder: Tell us what you see!
-      value: "A bug happened!"
+      value: ""
     validations:
       required: true
   - type: dropdown

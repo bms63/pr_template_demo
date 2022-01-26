@@ -1,6 +1,6 @@
 name:  Updates or Enhancements for Documentation
 description: Update for Documentation
-title: "Documentation Update or Enhancement: "
+title: "Documentation Update or Enhancement:  <Insert Issue Title Here>"
 labels: ["vignettes", "website", "documentation"]
 assignees:
   - octocat
