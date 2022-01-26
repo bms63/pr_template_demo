@@ -19,19 +19,21 @@ body:
   - type: textarea
     id: what-happened
     attributes:
-      label: Feature Rquest?
+      label: Feature Request?
       description: What is your idea? Please be succint in this part.
       placeholder: Tell us what you see!
       value: "I have an idea!"
     validations:
       required: true
   - type: textarea
-    id: logs
+    id: more
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      label: Feature Rquest-lots of details?
+      description: What is your idea? Please be succint in this part.
       placeholder: Tell us what you see!
       value: "I have an idea!"
+    validations:
+      required: true
   - type: checkboxes
     id: terms
     attributes:
