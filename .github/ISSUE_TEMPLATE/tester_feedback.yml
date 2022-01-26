@@ -36,7 +36,7 @@ body:
       value: "Something"
     validations:
       required: false
-    - type: textarea
+  - type: textarea
     id: what 
     attributes:
       label: Let's get specific on your category on New Feature or General
