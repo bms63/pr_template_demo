@@ -1,6 +1,6 @@
 name: Feature Request
 description: Enchancement to admiral functionality
-title: "Feature: "
+title: "Feature Request: "
 labels: ["enhancement", "programming"]
 assignees:
   - octocat

@@ -35,13 +35,5 @@ body:
       value: "Please give us as many details as you can!"
     validations:
       required: false
-  - type: textarea
-    id: logs
-    attributes:
-      label: Reproducible Example
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "Please give us as many details as you can!"
-    validations:
-      required: true
+
 
