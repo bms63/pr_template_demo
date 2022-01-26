@@ -27,7 +27,7 @@ body:
     validations:
       required: true
   - type: input
-    id: session info
+    id: session-info
     attributes:
       label: Session sessionInfo
       description: Use `sessionInfo()` to gather all the details of your environment when the bug happened.
