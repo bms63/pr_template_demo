@@ -31,7 +31,7 @@ body:
       label: Feature Rquest-lots of details?
       description: What is your idea?  
       placeholder: Tell us  !
-      value: "I have an idea!"
+      value: "I have idea!"
     validations:
       required: true
   - type: checkboxes
