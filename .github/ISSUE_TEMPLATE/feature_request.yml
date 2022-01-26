@@ -25,15 +25,6 @@ body:
       value: "I have an idea!"
     validations:
       required: true
-  - type: textarea
-    id: more
-    attributes:
-      label: Feature Rquest-lots of details?
-      description: What is your idea?  
-      placeholder: Tell us  !
-      value: "I have idea!"
-    validations:
-      required: true
   - type: checkboxes
     id: terms
     attributes:
