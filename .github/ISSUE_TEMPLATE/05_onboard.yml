@@ -1,5 +1,5 @@
 name: Onboarding Tasks
-description: Brining a Core or non-Core member onto the admiral team
+description: Bringing a Core or non-Core member onto the admiral team
 title: "Onboaring:  <Insert Issue Title Here>"
 labels: ["onboarding"]
 assignees:
@@ -12,7 +12,7 @@ body:
   - type: checkboxes
     id: core
     attributes:
-      label: Onboarding tasks for Core Team Members
+      label: Onboarding tasks for Core (Roche-GSK) Team Members
       description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
       options:
         - label: Given a tour of Github
