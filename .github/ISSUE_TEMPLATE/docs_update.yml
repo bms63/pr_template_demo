@@ -1,5 +1,5 @@
 name:  Updates or Enhancements for Documentation
-description: Documents out of date?  Examples need reworking? Think something needs a re-write?
+description: Documents out of date?  Examples need reworking? Got an idea for a new article?
 title: "Documentation:  <Insert Issue Title Here>"
 labels: ["vignettes", "website", "documentation"]
 assignees:
@@ -8,8 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        The admiral team loves documentation!  Sometimes it gets out of sync or is not very helpful.  
-        Please help us keep the documenation up to date or make suggestions to enhance it.
+        The admiral team loves documentation!  Help us keep it up to date and fresh!  
   - type: input
     id: contact
     attributes:
@@ -38,13 +37,4 @@ body:
       placeholder: Tell us what you see!
       value: "Something is out of sync or needs a refresh"
     validations:
-      required: false
-  - type: textarea
-    id: docs-enhancement
-    attributes:
-      label: Please fill out if documentation is in need of enhancements?
-      description: Be as desciprtive as you can!
-      placeholder: The more detail the more likely we can act on it.
-      value: "I have an idea for some enhancements!"
-    validations:
-      required: false
+      required: true
