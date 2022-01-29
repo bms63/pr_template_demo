@@ -8,20 +8,20 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Example: Bug: derive_vars_dtm() is returning NA values when using preserve argument
   - type: input
     id: contact
     attributes:
       label: Contact Details
       description: How can we get in touch with you if we need more info or to let you know when the bug has been fixed?
-      placeholder: ex. email@example.com
+      placeholder: email@example.com
     validations:
       required: false
   - type: textarea
     id: what-happened
     attributes:
       label: What happened?
-      description: Also tell us, what did you expect to happen?
+      description: Also tell us, what did you expect to happen before the bug?
       placeholder: Tell us what you see!
       value: "A bug happened!"
     validations:
@@ -30,7 +30,7 @@ body:
     id: session-info
     attributes:
       label: Session Information
-      description: Use `sessionInfo()` to gather all the details of your environment when the bug happened.
+      description: Use `sessionInfo()` in the R console to gather all the details of your environment when the bug happened.
       placeholder: Please cut and paste your session info into here.
       value: "Place here"
     validations:
@@ -41,7 +41,7 @@ body:
       label: Reproducible Example
       description: We love code that can reproduce the example
       placeholder: Tell us what you see!
-      value: "Please give us as many details as you can! Error Messages are also great and screenshots"
+      value: "Please give us as many details as you can! The faster we can |recreate the bug, the faster we can get a fix in the worksError Messages are also great and screenshots"
     validations:
       required: false
 
