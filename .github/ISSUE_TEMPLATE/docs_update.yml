@@ -18,18 +18,18 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
-    - type: dropdown
+  - type: dropdown
     id: browsers
     attributes:
       label: Please select a category the issue is focused on?
       multiple: true
       options:
-        - Function Examples
+        - Function Examples in Documentation
         - Function Documentation/Roxygen Headers
         - Get Started Document
         - Developer Guides
-        - user Guides
-        - I have a new one documentation idea!
+        - User Guides
+        - I have a new documentation idea! Yay!
   - type: textarea
     id: docs-out-if-sync
     attributes:
