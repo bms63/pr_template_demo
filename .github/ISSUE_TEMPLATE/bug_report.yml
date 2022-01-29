@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Example: Bug: derive_vars_dtm() is returning NA values when using preserve argument
+        **Example:** Bug: derive_vars_dtm() is returning NA values when using preserve argument
   - type: input
     id: contact
     attributes:

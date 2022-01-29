@@ -1,5 +1,5 @@
 name:  Updates or Enhancements for Documentation
-description: Update for Documentation
+description: Documents out of date?  Examples need reworking? Think something needs a re-write?
 title: "Documentation Update or Enhancement:  <Insert Issue Title Here>"
 labels: ["vignettes", "website", "documentation"]
 assignees:
