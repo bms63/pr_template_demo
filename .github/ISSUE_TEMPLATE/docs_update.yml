@@ -28,9 +28,8 @@ body:
         - Function Documentation/Roxygen Headers
         - Get Started Document
         - Developer Guides
-        - Creating ADSL
-        - Creating ADSL
-        - I have a new one!
+        - user Guides
+        - I have a new one documentation idea!
   - type: textarea
     id: docs-out-if-sync
     attributes:
